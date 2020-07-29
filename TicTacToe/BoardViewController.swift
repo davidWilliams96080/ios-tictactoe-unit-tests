@@ -31,7 +31,7 @@ class BoardViewController: UIViewController {
     
     // MARK: - Private
 
-    private func updateButtons() {
+     func updateButtons() {
         guard let board = board, isViewLoaded else { return }
         
         for x in 0..<3 {
